@@ -1,2 +1,51 @@
 @charset "UTF-8";
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: rgba(102, 77, 10, 0.774);
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login {
+    position: absolute;
+    background-color: white;
+    border-radius: 20px;
+    width: 250px;
+    height: 500px;
+    overflow: hidden;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease;
+
+}
+
+section#login > div#imagem {
+    display: block;
+    background: url("../imagens/pexels-produtora-midtrack-2764182.jpg");
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+section#login > div#formulario {
+    padding: 10px;
+    display: block;
+}
