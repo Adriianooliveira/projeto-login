@@ -38,10 +38,9 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: url("../imagens/pexels-produtora-midtrack-2764182.jpg");
+    background: rgba(102, 77, 10, 0.774) url("../imagens/pexels-produtora-midtrack-2764182.jpg") no-repeat;
     height: 200px;
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center center;
 }
 
