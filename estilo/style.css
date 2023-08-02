@@ -24,7 +24,7 @@ section#login {
     background-color: white;
     border-radius: 20px;
     width: 250px;
-    height: 500px;
+    height: 510px;
     overflow: hidden;
 
     top: 50%;
@@ -56,5 +56,50 @@ section#login > div#formulario h1 {
 
 section#login > div#formulario p {
     font-size: 0.8em;
+}
+
+div.campo label {
+    display: none;
+}
+
+form div.campo {
+    width: 100%;
+    display: block;
+    background-color: rgba(209, 155, 5, 0.74);
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    height: 45px;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    padding: 7px;
+    background-color: rgb(1, 3, 29);
+    color: white;
+    border-radius: 5px;
+}
+
+form > input[type=submit]:hover {
+    background-color: rgb(0, 3, 56);
+}
+
+form a.botao {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    height: 40px;
+    border: 2px solid black;
+    margin-top: 5px;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    border-radius: 5px;
+}
+
+form a.botao:hover {
+    background-color: rgb(0, 0, 0);
 }
 
