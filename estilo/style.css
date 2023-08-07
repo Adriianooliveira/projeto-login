@@ -79,7 +79,7 @@ form div.campo {
     height: 45px;
 }
 
-form > div > input[type=email] {
+form > div.campo > input[type=email] {
     padding: 5px;
     background-color: rgb(66, 50, 116);
     font-size: 1em;
@@ -91,7 +91,7 @@ form > div > input[type=email] {
     transform: translateY(-12.8px);
 }
 
-form > div > input[type=password] {
+form > div.campo > input[type=password] {
     padding: 4px;
     background-color: rgb(66, 50, 116);
     font-size: 1em;
@@ -101,6 +101,7 @@ form > div > input[type=password] {
     width: calc(100% - 44.5px);
     border-radius: 5px;
     transform: translateY(-12.8px);
+   
 }
 form > div > input:focus-within {
     background-color: white;
